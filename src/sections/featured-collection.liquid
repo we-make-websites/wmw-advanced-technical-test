@@ -1,0 +1,62 @@
+{% comment %}
+------------------------------------------------------------------------------
+  Section: Featured collection
+  - This the main section that you should be working on
+  - Main styling is done in /styles/sections/featured-collection.scss
+------------------------------------------------------------------------------
+{% endcomment %}
+
+<section class="featured-collection" data-section-id="{{ section.id }}" data-section-type="featured-collection">
+  {%- assign collection = collections[section.settings.collection] -%}
+
+  <h2>{{ collection.title | escape }}</h2>
+
+  <p>{{ collection.description }}</p>
+
+  {% for product in collection.products limit: 6 %}
+    {% assign current_variant = product.selected_or_first_available_variant %}
+  
+    <a href="{{ product.url | within: collection }}">
+      <div>
+        {% if product.featured_image != blank %}
+          {{ product.featured_image | img_url: 'large' | img_tag }}
+        {% endif %}
+        
+        <span js-ajax-cart="addToCart" data-variant-id="{{ current_variant.id }}" data-quantity="1">Add to cart</span>
+      </div>
+
+      <div>
+        <p>{{ product.title | escape }}</p>
+
+        <span>
+          {% include 'product-price' %}
+        </span>
+      </div>
+    </a>
+  {% endfor %}
+</section>
+
+{% schema %}
+  {
+    "name": "Featured collection",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Featured collection"
+      },
+      {
+        "id": "collection",
+        "type": "collection",
+        "label": "Collection"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured collection",
+        "category": "Collection"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,49 @@
+/**
+ * Theme
+ * -----------------------------------------------------------------------------
+ * This is the main entry file for all .scss modules
+ *
+ */
+@import '~normalize.css/normalize';
+
+/**
+ * Settings.
+ */
+@import './variables';
+
+/**
+ * Tools.
+ */
+@import './tools/mixins';
+@import './tools/functions';
+
+/**
+ * Core.
+ */
+@import './core/forms';
+@import './core/helpers';
+@import './core/layout';
+@import './core/media';
+@import './core/responsive-tables';
+@import './core/rte';
+@import './core/typography';
+
+/**
+ * Components.
+ */
+@import './components/buttons';
+@import './components/icons';
+@import './components/placeholders';
+@import './components/responsive-images';
+
+/**
+ * Sections.
+ */
+@import './sections/featured-collection';
+@import './sections/site-header';
+
+/**
+ * Templates.
+ */
+@import './templates/gift_card';
+@import './templates/product';
