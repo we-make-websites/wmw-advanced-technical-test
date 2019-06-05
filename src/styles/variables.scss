@@ -17,8 +17,8 @@ $placeholder-color-background: #f9fafb;
 /**
  * Others.
  */
-$color-accent: var(--color-accent);
-$color-border: var(--color-border);
+$color-accent: #000000;
+$color-border: #000000;
 
 /**
  * Helpers.
@@ -34,10 +34,10 @@ $color-success-bg: #000000;
  * Typography.
  */
 $font-heading: 'aktiv-grotesk', sans-serif;
-$font-body: var(--font-body);
-$font-body-weight: var(--font-body-weight);
-$font-body-style: var(--font-body-style);
-$font-body-bold-weight: var(--font-body-bold-weight);
+$font-body: 'aktiv-grotesk', sans-serif;
+$font-body-weight: 300;
+$font-body-style: normal;
+$font-body-bold-weight: 500;
 
 /**
  * Transitions.

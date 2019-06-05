@@ -24,16 +24,15 @@
     "stylelint-config-shopify": "^5.0.0"
   },
   "dependencies": {
-    "@shopify/theme-a11y": "^1.0.1",
-    "@shopify/theme-cart": "^1.0.0-alpha.7",
+    "@shopify/theme-a11y": "^2.0.1",
+    "@shopify/theme-cart": "^1.0.1",
     "@shopify/theme-currency": "^1.0.0-alpha.7",
     "@shopify/theme-images": "^1.0.0-alpha.7",
+    "@shopify/theme-product": "^1.0.0",
     "@shopify/theme-rte": "^1.0.0-alpha.7",
     "@shopify/theme-sections": "^1.1.0",
     "@shopify/theme-variants": "^1.0.0-alpha.8",
-    "jquery": "^3.2.1",
-    "lodash-es": "^4.17.4",
-    "normalize.css": "^7.0.0"
+    "lodash-es": "^4.17.4"
   },
   "scripts": {
     "start": "slate-tools start",
