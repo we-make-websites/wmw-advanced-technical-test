@@ -12,6 +12,10 @@ The Figma prototype also includes a simple style guide and component library for
 
 We require the build to be produced on a Shopify development store.
 
+> 🗒 **Collaboration account**
+> 
+> You will need to have been invited to the Figma design file in order to inspect elements on the design. If you have not received an invite - please request an invite from the interviewer or daniel@wemakewebsites.com.
+
 
 ### Tips
 **Modular scale**
