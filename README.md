@@ -1,7 +1,7 @@
 # We Make Websites - Advanced Technical Test
 > This is an advanced level test that we require selected Shopify front-end developers to partake. We do not pay or use any of the work produced on a commercial environment. 
 
-If you have come directly to this repository without a reference and curious to trial out this test - then please contact daniel@wemakewebsites.com to get yourself started!
+If you have come directly to this repository without a reference and curious to trial out this technical test - then please contact daniel@wemakewebsites.com to get yourself started!
 
 ## Brief
 You will have been provided a [link](https://www.figma.com/file/Iv2wyzwS8fxFDhhusJYHLA/WMW-Technical-Test-2?node-id=48%3A0) to a design of a basic Shopify homepage on Figma accompanied with an export of all icons and images used in the designs - including section and product content. 
@@ -21,7 +21,7 @@ We have provided a base font size and a scale to be used during build in the sty
 
 **User interactions**
 
-One of the most important things in eCommerce design is user experience through micro-interactions. We would like you to have a think about how you could improve the experience by adding an extra layer of interactions. 
+One of the most important things in eCommerce design is user experience through interactions. We would like you to have a think about how you could improve the experience by adding a layer of interaction. 
 An example for this test would be on the user feedback after adding a product in the quick view modal.
 
 
@@ -32,7 +32,7 @@ We like to have our Javascript written without any Javascript frameworks or larg
 
 **Shopify settings**
 
-Although we have a focus on design on the front-end, we also will be looking at how the schema structure will be set up. The settings structure must follow a rational user experience accompanied with supported information when required such as image dimensions on file upload schema types.
+Although we have a focus on design on the front-end, we also will be looking at how the schema structure will be set up. The settings structure should follow a thoughtful admin experience accompanied.
 
 
 ## Requirements
@@ -78,14 +78,12 @@ You will need to create a .env file using the contents below in the project dire
 
 ```
 # The myshopify.com URL to your Shopify store 
-SLATE_STORE=wmw-technical-test.myshopify.com
+SLATE_STORE=your-test-store.myshopify.com
 
 # The API password generated from a Private App 
-# This will have been emailed to you
 SLATE_PASSWORD=
 
 # The ID of the theme you wish to upload files too
-# This will have been emailed to you
 SLATE_THEME_ID=
 
 # A list of file patterns to ignore, with each list item separated by ':' 
