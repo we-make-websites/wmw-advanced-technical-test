@@ -74,7 +74,7 @@ You will need to make a clone of this repo and run the following command in the 
 
 3. **Set up your .env file**
 
-You will need to create a .env file using the contents below in the project directory. The password and theme id will have been emailed to you:
+You will need to create a .env file using the contents below in the project directory. These details will not be supplied to you, you will to set up a private Shopify app to get these details for your environment.
 
 ```
 # The myshopify.com URL to your Shopify store 
@@ -90,7 +90,7 @@ SLATE_THEME_ID=
 SLATE_IGNORE_FILES=settings_data.json:
 ```
 
-4. **Start Node.js Express server and begin watching assets**
+1. **Start Node.js Express server and begin watching assets**
 
 The command will compile the assets within /src into a /dist directory - which are all the necessary files for your theme to run.
 
