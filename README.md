@@ -4,7 +4,7 @@
 If you have come directly to this repository without a reference and curious to trial out this technical test - then please contact daniel@wemakewebsites.com to get yourself started!
 
 ## Brief
-You will have been provided a [link](https://www.figma.com/file/Iv2wyzwS8fxFDhhusJYHLA/WMW-Technical-Test-2?node-id=48%3A0) to a design of a basic Shopify homepage on Figma accompanied with an export of all icons and images used in the designs - including section and product content. 
+You will have been provided a [link](https://www.figma.com/file/Iv2wyzwS8fxFDhhusJYHLA/WMW-Technical-Test-2?node-id=48%3A0) to a design of a basic Shopify homepage on Figma accompanied with an export of all icons and images used in the designs - including product content. 
 
 We have supplied both mobile and desktop designs but we would like you to have a think about how each of the components respond to the sizes in between. The solution is open for interpretation.
 
@@ -20,7 +20,7 @@ We require the build to be produced on a Shopify development store.
 ### Tips
 **Modular scale**
 
-We have provided a base font size and a scale to be used during build in the style guide, labeled at the top, for reference. We suggest using a Sass plugin to create a typographic scale, [Modularscale](https://modularscale.com).
+We have provided a base font size and a scale to be used during build in the style guide, labeled at the top, for reference. We suggest using a Sass plugin to create a typographic scale, [Modularscale](https://modularscale.com). However, this is optional.
 
 
 **User interactions**
