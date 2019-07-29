@@ -64,6 +64,22 @@ This section should be pulling through an active collection. The content for the
 
 This section should initialise a carousel when there are 4 items and above.
 
+## Acceptance criteria
+
+**We have a high focus on attention to detail in code**
+* The formatting of the codebase should be consistent and written in a modular approach
+* Internally, we use BEM - but we are open to other CSS naming conventions as long as it's built with scale and maintenance in mind
+* We expect the codebase to be written using ES6 and libraries kept to a minimum
+* We expect code to be written with performance in mind
+* We expect the code to be included in the relevant files
+* Mobile-first development approach using min-width media queries
+  
+**We have a high focus on attention to detail in design**
+* We expect the designs to match as closely as they can
+* Correct fonts and sizes, correct colours, correct line-heights and letter-spacing
+* Images to be cropped and sized correctly to designs
+* Interactions and animations to be considered but not distracting users away from the experience
+* Minimal visual bugs when going resizing to mobile and large screen sizes
 
 ## Getting started
 1. **Create a self-signed SSL certificate**
